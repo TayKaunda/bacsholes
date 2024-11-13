@@ -1,5 +1,6 @@
-from numpy import exp, sqrt, log, pi
+from numpy import exp, sqrt, log
 from scipy.stats import norm
+
 
 class BlackScholes:
     def __init__(
@@ -69,6 +70,4 @@ if __name__ == "__main__":
         current_price=current_price,
         volatility=volatility,
         interest_rate=interest_rate)
-    
     BS.run()
-        
